@@ -36,11 +36,13 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(2.325rem + 0.9vw);
+  color: black;
 }
 
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 6rem;
+    color: black;
   }
 }
 h2, .h2 {
@@ -80,26 +82,25 @@ p {
   color: white;
 }
 
-svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: block;
-  background-color: #0e4166;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 65, 102, 0.86)), to(#0e4166));
-  background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
-  z-index: -1;
+header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
 }
 
 .titulo{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  color: white;
+  color: black;
+}
+
+.lista{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
 .Paises {
@@ -108,7 +109,7 @@ svg {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 10rem auto;
+  margin: 1rem auto;
   min-height: 60vh;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
