@@ -154,7 +154,7 @@ nav ul li a.active{
     z-index: 999;
     width: 280px;
     height: 100vh;
-    background-color: #0d1423;
+    background: #1064a6;
     transition: 0.2s;
     box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
   }
@@ -286,7 +286,7 @@ main .right .imagen img{
   }
 
   main .right .imagen img{
-    height: 450px;
+    height: 430px;
   }
 }
 @media (width <= 768px){
