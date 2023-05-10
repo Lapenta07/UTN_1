@@ -193,28 +193,36 @@ main{
   justify-content: center;
   margin: 0 auto;
   align-items: center;
+  gap: 1rem;
 }
 
 main .left{
-  width: 600px;
+  width: 700px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   margin-top: 6rem
 }
 
-
+main .left .nombre{
+  display: block;
+  margin: 0 auto;
+}
 
 main .left .nombre h1{
   color: #ff5c5c;
   font-size: 3.5rem;
-  font-weight: 800;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 main .left .introduccion{
-  font-weight: 400;
-  margin-top: 32px;
-  text-align: center;
+  display: block;
+  margin: 32px 0 0 25px;
+  font-weight: lighter;
+  text-align: left;
+  letter-spacing: 1.5px;
 }
 
 main .left .button{
@@ -224,7 +232,7 @@ main .left .button{
   transition: 0.2s;
   border-radius: 30px;
   text-decoration: none;
-  margin: 64px auto;
+  margin: 43px -30px;
 }
 main .left .button span{
   margin: 32px 32px;
@@ -236,16 +244,14 @@ main .left .button span{
   background: #ff5c5c;
   color: #f6f4ff;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 main .left .button span:hover{
   background-color: white;
-}
-
-main .left .button span a:hover{
-  background: white;
   color: #ff5c5c;
 }
+
+
 
 main .left .button span a{
   color: white;
@@ -261,6 +267,6 @@ main .right .imagen{
 }
 
 main .right .imagen img{
-  height: 800px;
+  height: 725px;
   
 }

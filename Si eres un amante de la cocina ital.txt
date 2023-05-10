@@ -1,0 +1,15 @@
+	    Si eres un amante de la cocina italiana, te ofrecemos una selección de recetas clásicas como la pasta
+          carbonara, la pizza margherita, el risotto y las famosas lasañas. También tenemos recetas regionales menos
+          conocidas como el cacio e pepe, la pasta all'amatriciana y la saltimbocca alla romana. <br><br>
+
+          Si prefieres la cocina francesa, no te pierdas nuestras recetas de coq au vin, ratatouille, quiche lorraine y
+          bouillabaisse. También te enseñamos cómo hacer algunas de las salsas más famosas de Francia, como la bechamel,
+          la holandesa y la bernesa. <br><br>
+
+          Por último, si quieres probar platos típicos de la cocina española, te recomendamos nuestras recetas de
+          paella, tortilla de patatas, gazpacho y fabada asturiana. Además, también te enseñamos a preparar tapas como
+          la tortilla española, las gambas al ajillo y la ensaladilla rusa. <br><br>
+
+          En nuestra página, también encontrarás consejos sobre los ingredientes, técnicas y herramientas que
+          necesitarás para cocinar estas recetas de manera auténtica. ¡Esperamos que disfrutes explorando la cocina de
+          estos países y que pruebes algunas de nuestras recetas en casa!
