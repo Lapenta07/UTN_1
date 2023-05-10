@@ -263,10 +263,30 @@ main .left .button span a{
 main .right .imagen{
   display: flex;
   justify-content: right;
-  
 }
 
 main .right .imagen img{
   height: 725px;
-  
+}
+
+@media (width <= 1440px){
+  main .left{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 6rem
+  }
+
+  main .left .nombre h1{
+    color: #ff5c5c;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+
+  main .right .imagen img{
+    height: 450px;
+  }
 }
