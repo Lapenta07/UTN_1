@@ -72,7 +72,8 @@ h6, .h6 {
 
 p {
   margin-top: 0;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
   color: white;
 }
 
@@ -88,7 +89,11 @@ header{
   justify-content: space-between;
   padding: 0 70px;
   border-radius: 0 0 10px 10px;
-  margin: 0 auto;
+  margin: 0 5rem;
+  position: fixed;
+  z-index: 999;
+  background: #0F1012;
+  top: 0;
 }
 
 .logo{
@@ -146,6 +151,7 @@ nav ul li a.active{
   header{
     width: 90%;
     padding: 0 20px;
+    
   }
   nav {
     position: absolute;
@@ -184,3 +190,61 @@ nav ul li a.active{
     display: block;
   }
 }
+
+.introduccion{
+  display: flex;
+  flex-wrap: wrap;
+  color: #ebebeb;
+  margin: 2rem auto;
+  width: 70%;
+}
+
+.personas{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  width: 70%;
+}
+
+.tarjetas{
+  width: 18rem;
+  border: 2px solid white;
+  border-radius: 15px 15px 0px 0px;
+  margin: 1rem auto;
+}
+
+@media (width <= 1024px){
+  .tarjetas{
+  width: 13rem;
+  }
+}
+
+@media (width <= 830px){
+  .tarjetas{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+  }
+}
+
+.tarjetas img{
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+.card-text{
+  text-align: center;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+}
+
+footer img{
+  height: 250px;
+}
+

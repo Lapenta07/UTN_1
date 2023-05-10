@@ -252,7 +252,7 @@ main .left .button span:hover{
 
 
 
-main .left .button span a{
+main .left .button a span{
   color: white;
   text-decoration: none;
   transition: 0.2s;

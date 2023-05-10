@@ -1,48 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/nosotros.css">
-    <title>Nosotros</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/nosotros.css">
+  <title>Nosotros</title>
 </head>
+
 <body>
-    <header>
-        <div class="logo">
-          <img src="../assets/cheff/facha.png" alt="logo">
+  <header id="header">
+    <div class="logo">
+      <img src="../assets/cheff/facha.png" alt="logo">
+    </div>
+    <input type="checkbox" id="nav_check" hidden>
+    <nav>
+      <div class="logo">
+        <img src="../assets/cheff/facha.png" alt="logo">
+      </div>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="../pages/españa.html">España</a>
+        </li>
+        <li>
+          <a href="../pages/francia.html">Francia</a>
+        </li>
+        <li>
+          <a href="../pages/italia.html">Italia</a>
+        </li>
+        <li>
+          <a href="#" class="active">Nosotros</a>
+        </li>
+        <li>
+          <a href="./Contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <label for="nav_check" class="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </label>
+  </header>
+
+  <section class="introduccion">
+    <p>Bienvenido/a a nuestra página de recetas de cocina de España, Francia e Italia. Aquí encontrarás una amplia
+      variedad de platos típicos de estos países, con instrucciones detalladas y consejos útiles para cocinarlos en
+      casa. <br><br>
+
+      Si eres un amante de la cocina italiana, te ofrecemos una selección de recetas clásicas como la pasta
+      carbonara, la pizza margherita, el risotto y las famosas lasañas. También tenemos recetas regionales menos
+      conocidas como el cacio e pepe, la pasta all'amatriciana y la saltimbocca alla romana. <br><br>
+
+      Si prefieres la cocina francesa, no te pierdas nuestras recetas de coq au vin, ratatouille, quiche lorraine y
+      bouillabaisse. También te enseñamos cómo hacer algunas de las salsas más famosas de Francia, como la bechamel,
+      la holandesa y la bernesa. <br><br>
+
+      Por último, si quieres probar platos típicos de la cocina española, te recomendamos nuestras recetas de
+      paella, tortilla de patatas, gazpacho y fabada asturiana. Además, también te enseñamos a preparar tapas como
+      la tortilla española, las gambas al ajillo y la ensaladilla rusa. <br><br>
+
+      En nuestra página, también encontrarás consejos sobre los ingredientes, técnicas y herramientas que
+      necesitarás para cocinar estas recetas de manera auténtica. ¡Esperamos que disfrutes explorando la cocina de
+      estos países y que pruebes algunas de nuestras recetas en casa!</p>
+  </section>
+
+  <section class="personas">
+    <article class="tarjetas">
+      <div>
+        <img src="../assets/personas/hombre1.jpg" class="card-img-top" alt="Felix" />
+        <div class="card-body">
+          <p class="card-text">
+            Maestro por su enfoque innovador y creativo de la cocina italiana tradicional. Él es un defensor de la
+            técnica
+            moderna y utiliza técnicas de vanguardia para transformar platos clásicos en creaciones únicas
+            En 2016, Osteria Francescana fue nombrado el mejor restaurante del mundo por la revista Restaurant.
+            También ha sido galardonado con tres estrellas Michelin, y ha sido reconocido con numerosos premios y
+            honores en todo el mundo.
+            "Massimo"
+          </p>
         </div>
-        <input type="checkbox" id="nav_check" hidden>
-        <nav>
-          <div class="logo">
-            <img src="../assets/cheff/facha.png" alt="logo">
-          </div>
-          <ul>
-            <li>
-              <a href="../index.html">Home</a>
-            </li>
-            <li>
-              <a href="../pages/españa.html">España</a>
-            </li>
-            <li>
-              <a href="../pages/francia.html">Francia</a>
-            </li>
-            <li>
-              <a href="../pages/italia.html">Italia</a>
-            </li>
-            <li>
-              <a href="#" class="active">Nosotros</a>
-            </li>
-            <li>
-              <a href="./Contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-        <label for="nav_check" class="hamburger">
-          <div></div>
-          <div></div>
-          <div></div>
-        </label>
-    </header>
+      </div>
+    </article>
+
+    <article class="tarjetas">
+      <div>
+        <img src="../assets/personas/mujer2.jpg" class="card-img-top" alt="Benice" />
+        <div class="card-body">
+          <p class="card-text">
+            El estilo culinario de Arzak se caracteriza por su enfoque innovador y creativo de la cocina vasca
+            tradicional. Ella es conocida por utilizar técnicas de vanguardia y sabores atrevidos para transformar los
+            platos clásicos en creaciones únicas y sorprendentes. Algunos de sus platos más famosos incluyen "el huevo
+            de oro", una yema de huevo cocida a baja temperatura y servida con una espuma de patata y trufa, y "el mero
+            en su tinta", que presenta el pescado negro servido en una tinta de calamar."Arzak"
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <article class="tarjetas">
+      <div>
+        <img src="../assets/personas/hombre2.jpg" class="card-img-top" alt="Raúl" />
+        <div class="card-body">
+          <p class="card-text">
+            Bocuse también es conocido por su innovación y su papel en la creación de
+            la "nouvelle cuisine", un estilo culinario que enfatiza la simplicidad y 
+            la ligereza en la preparación de los platos. Esta técnica se opuso a la 
+            cocina clásica francesa, que a menudo implicaba salsas pesadas y preparaciones elaboradas. 
+            Bocuse fue un defensor de la frescura de los ingredientes y la presentación simple 
+            y elegante de los platos "Bocuse".
+          </p>
+        </div>
+      </div>
+    </article>
+  </section>
+  <footer>
+    <img src="../assets/cheff/facha.png" alt="logo">
+  </footer>
 </body>
+
 </html>
