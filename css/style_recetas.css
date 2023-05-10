@@ -83,13 +83,16 @@ header img{
 header{
   width: 90%;
   height: 120px;
-  
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 70px;
   border-radius: 0 0 10px 10px;
   margin: 0 auto;
+  z-index: 3;
+  background-color: #0F1012;
+  top: 0;
 }
 
 .logo{
@@ -145,7 +148,7 @@ nav ul li a.active{
 
 @media only screen and (max-width: 1100px){
   header{
-    width: 90%;
+    width: 100%;
     padding: 0 20px;
   }
   nav {
@@ -189,8 +192,8 @@ nav ul li a.active{
 .main{
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
-    margin: 2rem auto;
+    width: 80%;
+    margin: 7rem auto;
     padding: 0 70px;
     justify-content: center;
     align-items: center;
@@ -298,4 +301,18 @@ nav ul li a.active{
 .card .details .info{
     color: #ffffff;
     margin-top: 20px;
+}
+
+.cheff{
+  display: flex;
+  width: 100%;
+  float: right;
+  z-index: -1;
+  position: fixed;
+  justify-content: right;
+  scroll-behavior: smooth;
+}
+
+.cheff img{
+  height: 170px;
 }

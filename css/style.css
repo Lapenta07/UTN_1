@@ -83,7 +83,6 @@ header img{
 header{
   width: 90%;
   height: 120px;
-  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -191,7 +190,7 @@ main{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 auto;
+  margin: 2rem auto;
   align-items: center;
   gap: 1rem;
 }
@@ -289,4 +288,17 @@ main .right .imagen img{
   main .right .imagen img{
     height: 450px;
   }
+}
+@media (width <= 768px){
+  header{
+    position: fixed;
+    z-index: 3;
+    background-color: #0F1012;
+    top: 0;
+  }
+
+  main{
+    margin: 3rem auto;
+  }
+
 }
