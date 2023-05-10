@@ -5,7 +5,7 @@
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    font-family: sans-serif "Nunito";
+    font-family: sans-serif "Comme";
   }
 }
 html {
@@ -18,7 +18,7 @@ html {
     font-family: "Comme", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0px;
     height: 100vh;
-    background: linear-gradient(#007bb2, #0d1423); 
+    background: #0F1012; 
   }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -83,7 +83,7 @@ header img{
 header{
   width: 90%;
   height: 120px;
-  background: #0d1423;
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -191,6 +191,7 @@ nav ul li a.active{
     flex-wrap: wrap;
     width: 90%;
     margin: 2rem auto;
+    padding: 0 70px;
     justify-content: center;
     align-items: center;
     gap: 1rem;
