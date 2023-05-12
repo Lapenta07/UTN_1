@@ -151,9 +151,7 @@ nav ul li a.active{
     background-color: #0F1012;
     position: fixed;
     z-index: 999;
-    top: 0;
-  
-    
+    top: 0;    
   }
   nav {
     position: absolute;
