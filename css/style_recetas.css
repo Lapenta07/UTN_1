@@ -83,7 +83,6 @@ header img{
 header{
   width: 90%;
   height: 120px;
-  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -92,6 +91,8 @@ header{
   margin: 0 5rem;
   z-index: 3;
   background-color: #0F1012;
+  position: fixed;
+  z-index: 999;
   top: 0;
 }
 
@@ -151,7 +152,7 @@ nav ul li a.active{
     width: 90%;
     padding: 0 20px;
     margin: 0 auto;
-    display: flex;    
+    display: flex; 
   }
   nav {
     position: absolute;
@@ -163,9 +164,6 @@ nav ul li a.active{
     background: #1064a6;
     transition: 0.2s;
     box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
-    position: fixed;
-    z-index: 999;
-    top: 0;
   }
   
   #nav_check:checked ~ nav{
@@ -199,8 +197,7 @@ nav ul li a.active{
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin: 7rem auto;
-    padding: 0 70px;
+    margin: 8rem auto;
     justify-content: center;
     align-items: center;
     gap: 1rem;

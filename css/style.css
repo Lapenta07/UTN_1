@@ -89,6 +89,11 @@ header{
   padding: 0 70px;
   border-radius: 0 0 10px 10px;
   margin: 0 auto;
+  background-color: #0F1012;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+
 }
 
 .logo{
@@ -159,9 +164,6 @@ nav ul li a.active{
     background: #1064a6;
     transition: 0.2s;
     box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
-    position: fixed;
-    z-index: 999;
-    top: 0;
   }
   
   #nav_check:checked ~ nav{
@@ -307,4 +309,22 @@ main .right .imagen img{
     margin: 3rem auto;
   }
 
+  main .right .imagen img{
+    height: 350px;
+  }
+}
+
+@media (width <= 426px){
+  main .left .nombre h1{
+    font-size: 2rem;
+  }
+  main .right .imagen img{
+    height: 200px;
+  }
+}
+
+@media (width <= 325px){
+  main .left .nombre h1{
+    font-size: 1.5rem;
+  }
 }
