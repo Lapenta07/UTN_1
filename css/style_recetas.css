@@ -148,8 +148,10 @@ nav ul li a.active{
 
 @media only screen and (max-width: 1100px){
   header{
-    width: 100%;
+    width: 90%;
     padding: 0 20px;
+    margin: 0 auto;
+    display: flex;    
   }
   nav {
     position: absolute;
@@ -158,10 +160,14 @@ nav ul li a.active{
     z-index: 999;
     width: 280px;
     height: 100vh;
-    background-color: #1064a6;
+    background: #1064a6;
     transition: 0.2s;
     box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
+    position: fixed;
+    z-index: 999;
+    top: 0;
   }
+  
   #nav_check:checked ~ nav{
     left: 0;
 
@@ -316,4 +322,12 @@ nav ul li a.active{
 
 .cheff img{
   height: 170px;
+}
+
+@media (width <1101px){
+  .cheff{
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+  }
 }
