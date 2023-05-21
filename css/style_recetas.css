@@ -76,6 +76,14 @@ p {
   color: white;
 }
 
+@media (width < 500px){
+  p {
+    margin-top: 0;
+    font-size: 1rem;
+    color: white;
+  }
+}
+
 header img{
   width: 100%;
 }
@@ -251,6 +259,12 @@ nav ul li a.active{
     padding: 20px;
     z-index: 2;
     transition: 0.5s;
+}
+
+@media (width < 450px){
+  .card .details{
+  padding: 20px 2px 20px 5px;
+  }
 }
 
 .card .details a{
